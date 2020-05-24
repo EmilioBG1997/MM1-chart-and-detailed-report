@@ -1,5 +1,5 @@
 # Importing Shiny.
-  library(shiny)
+  library("shiny")
 
 # UI.
   shinyUI(fluidPage(
@@ -68,6 +68,7 @@
                     (tags$div(class="input-field col s3",
                       (tags$input(type="text", id="n")),
                         (tags$span(class="helper-text", "n")))),
+                    (tags$div(class= "col s3"))
                     (tags$button(onclick="validate_information()", id="click","Generate report", class="btn waves-light mr-1 mb-2 right"))))))
               )
           # Close of the row that contains a button.

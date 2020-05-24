@@ -1,9 +1,4 @@
-#Un lavacarros puede atender un auto cada 5 minutos y la tasa media de llegadas es de 9 autos por hora. 
-#a) Obtenga las medidas de desempeño de acuerdo con el modelo M/M/1. 
-#b) Obtenga la probabilidad de tener 0 clientes en el sistema 
-#c) Obtenga la probabilidad de tener más de 3 clientes en el sistema
-#d) Obtenga la probabilidad de esperar más de 30 minutos en la cola
-#e) Obtenga la probabilidad de esperar más de 30 minutos en el sistema
+
 library("queueing") #Podemos identificar inmediatamente que es un problema de colas
 lbda =  9/60 # Razon de llegada (9 autos cada 60 min)
 mu = 1/5 #tasa de servicio (1 auto cada 5 min)
