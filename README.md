@@ -1,6 +1,6 @@
 # MM1-chart-and-detailed-report-with-r-shiny
 
-System that generates a chart based on steady state probabilities and a detailed report of the MM1 Queueing model using R as backend and shiny as framework, in addition to ChartJS for data visualization and Queueing (R package) to solve the MM1 queueing model.
+System that generates a chart based on probabilities and a detailed report of the MM1 Queueing model using R as backend and shiny as framework, in addition to ChartJS for data visualization and Queueing (R package) to solve the MM1 queueing model.
 
 ### Prerequisites
 
